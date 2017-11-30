@@ -13,7 +13,13 @@
       background: #73b6bf;
       width: 100%;
       height: 100%;
-      
+    }
+
+    html {
+      animation: rainbow 30s infinite;
+    }
+    
+    body {
       filter: url(filter.svg#myfilter);
     }
     
@@ -37,6 +43,16 @@
     img {
       width: 100%;
       height: 100%;
+    }
+    
+    @keyframes rainbow {
+      0% {
+        filter: hue-rotate(0deg);
+      }
+      
+      100% {
+        filter: hue-rotate(360deg);
+      }
     }
   </style>
 </head>
