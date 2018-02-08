@@ -1,5 +1,3 @@
-/* jshint browser: true */
-
 (function () {
   var code = 'UA-17159207-9';
 
